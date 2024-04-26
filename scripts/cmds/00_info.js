@@ -15,17 +15,10 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = "yazky";
-		const botPrefix = "!";
-		const authorName = "CliffVincent";
-		const ownAge = "18";
-		const teamName = "Github team";
-		const authorFB = "https://www.facebook.com/swordigo.swordslush";
-		const authorInsta = "Thead469";
-		const tikTok = "tiktok.com/@Cliffthegreat0";
+		const botName = "𝗣𝗛𝗜𝗟𝗜𝗣𝗣𝗜𝗡𝗘𝗦 𝗔𝗜";
 		const urls = JSON.parse(fs.readFileSync('cliff.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
-		const now = moment().tz('Asia/Jakarta');
+		const now = moment().tz('Asia/manila');
 		const date = now.format('MMMM Do YYYY');
 		const time = now.format('h:mm:ss A');
 		const uptime = process.uptime();
@@ -38,12 +31,11 @@ module.exports = {
 		message.reply({
 			body: `《  Bot & Owner Info 》
 \Name: ${botName}
-\Bot Prefix: ${botPrefix}
-\owner: ${authorName}
-\age : ${ownAge}
-\Facebook: ${authorFB}
-\Instagram: ${authorInsta}
-\TikTok: ${tikTok}
+\n𝗧𝗛𝗘 𝗛𝗔𝗡𝗗𝗦𝗢𝗠𝗘 𝗔𝗗𝗠𝗜𝗡𝗦🇵🇭
+\n⚜️𝟭: 𝗞𝘆𝗹𝗲 𝗕𝗮𝗶𝘁-𝗶𝘁
+\n⚜️𝟮: 𝗩𝗶𝗻𝗰𝗲𝗻𝘁 𝗔𝗿𝗺𝗲𝗻𝗶𝗼𝗻
+\n⚜️𝟯: 𝗝𝗼𝗵𝗻 𝗱𝗲𝗿𝗲𝗰𝗸 𝗺𝗶𝗱𝗿𝗮𝗻𝗼 𝗼𝗯𝗼𝘇𝗮
+\n⚜️𝟰: 𝗝𝗼𝘀𝗵𝘂𝗮 𝗕𝗮𝗿𝘁𝗼𝗹𝗼𝗺𝗲
 \Datee: ${date}
 \Time: ${time}
 \Team: ${teamName}
