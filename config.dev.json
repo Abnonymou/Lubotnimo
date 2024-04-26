@@ -17,20 +17,22 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100053549552408",
-    ""
+    "100052395031835",
+    "100090775159086", 
+    "100082580843320", 
+    "100057460711194"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "OWNER": "Cliff Vincent",
-  "AGE": "18",
-  "GENDER": "MALE",
-  "nickNameBot": "Yazkybot",
-  "FACEBOOK": "https://www.facebook.com/swordigo.swordslush",
-  "prefix": "✓",
+  "OWNER": "",
+  "AGE": "",
+  "GENDER": "",
+  "nickNameBot": "𝗧𝗘𝗔𝗠 𝗣𝗛𝗜𝗟𝗜𝗣𝗣𝗜𝗡𝗘𝗦 𝗔𝗜",
+  "FACEBOOK": "",
+  "prefix": ",",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
