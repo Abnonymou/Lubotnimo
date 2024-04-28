@@ -31,11 +31,8 @@ module.exports = {
 		message.reply({
 			body: `《  Bot & Owner Info 》
 \Name: ${botName}
-\n𝗧𝗛𝗘 𝗛𝗔𝗡𝗗𝗦𝗢𝗠𝗘 𝗔𝗗𝗠𝗜𝗡𝗦🇵🇭
-\n⚜️𝟭: 𝗞𝘆𝗹𝗲 𝗕𝗮𝗶𝘁-𝗶𝘁
-\n⚜️𝟮: 𝗩𝗶𝗻𝗰𝗲𝗻𝘁 𝗔𝗿𝗺𝗲𝗻𝗶𝗼𝗻
-\n⚜️𝟯: 𝗝𝗼𝗵𝗻 𝗱𝗲𝗿𝗲𝗰𝗸 𝗺𝗶𝗱𝗿𝗮𝗻𝗼 𝗼𝗯𝗼𝘇𝗮
-\n⚜️𝟰: 𝗝𝗼𝘀𝗵𝘂𝗮 𝗕𝗮𝗿𝘁𝗼𝗹𝗼𝗺𝗲
+\n𝗧𝗛𝗘 𝗛𝗔𝗡𝗗𝗦𝗢𝗠𝗘 𝗔𝗗𝗠𝗜𝗡🇧🇩
+\n𝗔𝗗𝗠𝗜𝗡: 𝗝𝗔𝗞𝗢 𝗞𝗛𝗔𝗡ツ
 \Datee: ${date}
 \Time: ${time}
 \Team: ${teamName}
